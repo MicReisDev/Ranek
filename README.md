@@ -1,4 +1,6 @@
 # Ranek
+<img width="600px" width="400px" src="app/src/assets/ezgif.com-gif-maker.gif">
+
 Este site foi criado para treinar tudo o que foi aprendido em um curso de Vue 2.
 A ideia é de um e-comerce de eletrônicos.
 
@@ -39,4 +41,4 @@ cd api
 ```
 json-server --watch ranek.json
 ```
-<img width="600px" width="400px" src="app/src/assets/ezgif.com-gif-maker.gif">
+
