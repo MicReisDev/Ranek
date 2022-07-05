@@ -1,19 +1,42 @@
-# app
+# Ranek
+Este site foi criado para treinar tudo o que foi aprendido em um curso de Vue 2.
+A ideia é de um e-comerce de eletrônicos.
 
-## Project setup
+Como API foi utilizada uma biblioteca chamada Json server que já possui vários metodos de uma API REST real.
+
+Neste site é possível:
++ Buscar produtos pelo nome
++ Criar um usuário
++ Logar usuário
++ Editar dados do usuário
++ Comprar produtos
++ Adicionar produtos
++ Excluir produtos
+
+## Neste projeto foi utilizada as seguintes bibliotecas:
++ Vuex
++ Vue Router
++ Axios
++ Json-Server
+
+## para instalar a dependencia: 
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Após instaladas todas as dependências abra dois terminais:
+No primeiro terminal você vai dar o seguinte comando:
+```
+cd app
+```
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+No segundo terminal:
 ```
-npm run build
+cd api
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+json-server --watch ranek.json
+```
+<img width="600px" width="400px" src="src/assets/ezgif.com-gif-maker.gif">
