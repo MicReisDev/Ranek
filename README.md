@@ -17,7 +17,7 @@ Neste site é possível:
 + Vuex
 + Vue Router
 + Axios
-+ Json-Server
++ Json-server
 
 ## para instalar a dependencia: 
 ```
