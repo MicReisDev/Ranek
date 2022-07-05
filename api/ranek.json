@@ -2,9 +2,9 @@
   "usuario": [
     {
       "id": 1,
-      "nome": "michael moreira dos reis",
+      "nome": "michael",
       "email": "michael@hotmail.com",
-      "senha": "147852",
+      "senha": "1234",
       "cep": "04288-100",
       "rua": "Rua Doutor Ascânio Cerqueira",
       "numero": "42",
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "nome": "deisiane ferreira",
+      "nome": "deisiane",
       "email": "deisiane@hotmail.com",
       "senha": "1234",
       "cep": "04288-100",
