@@ -1,0 +1,190 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "michael moreira dos reis",
+      "email": "michael@hotmail.com",
+      "senha": "147852",
+      "cep": "04288-100",
+      "rua": "Rua Doutor Ascânio Cerqueira",
+      "numero": "42",
+      "bairro": "Vila Brasílio Machado",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "id": 2,
+      "nome": "deisiane ferreira",
+      "email": "deisiane@hotmail.com",
+      "senha": "1234",
+      "cep": "04288-100",
+      "rua": "Rua Doutor Ascânio Cerqueira",
+      "numero": "42",
+      "bairro": "Vila Brasílio Machado",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "id": 3,
+      "nome": "teste",
+      "email": "teste@hotmail.com",
+      "senha": "123",
+      "cep": "04288-100",
+      "rua": "Rua Doutor Ascânio Cerqueira",
+      "numero": "42",
+      "bairro": "Vila Brasílio Machado",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  ],
+  "transacao": [
+    {
+      "comprador_nome": "michael moreira dos reis",
+      "comprador_id": 1,
+      "comprador_email": "michael@hotmail.com",
+      "produto": {
+        "nome": "Galaxy A53",
+        "preco": "1999",
+        "descricao": "-Performance absurda.\n-Fotos sem igual em qualquer luz\n-Absurdamente resistente à água e poeira",
+        "fotos": "https://images.samsung.com/is/image/samsung/p6pim/br/2202/gallery/br-galaxy-a53-5g-a536-sm-a536elbgzto-531544867?$650_519_PNG$",
+        "usuario_id": 3,
+        "vendido": "false",
+        "estoque": "15",
+        "id": "Galaxy A53"
+      },
+      "vendedor": 3,
+      "preco": "1999",
+      "quantidade": 3,
+      "endereco": {
+        "logradouro": "Rua Doutor Ascânio Cerqueira",
+        "numero": "42",
+        "bairro": "Vila Brasílio Machado",
+        "cidade": "São Paulo",
+        "estado": "SP"
+      },
+      "id": 1
+    }
+  ],
+  "produto": [
+    {
+      "nome": "MI note 9",
+      "preco": "2999",
+      "descricao": "▸ Bateria de 5000mAh\n▸ Processador Helio G25 2,0Gz\n▸ Tela 6.53” IPS HD+\n▸ Android 10 MIUI 11\n▸ Desbloqueio facial\n▸ Câmera traseira de 13 MP com IA",
+      "fotos": "http://cdn.shopify.com/s/files/1/0413/8896/6039/products/Celular-Xiaomi-Redmi-9A-2GB-RAM-32GB-Camera-13MP-Verde_1.jpg?v=1623169696",
+      "usuario_id": 3,
+      "vendido": "false",
+      "estoque": "15",
+      "id": "MI note 9"
+    },
+    {
+      "nome": "Galaxy A53",
+      "preco": "1999",
+      "descricao": "-Performance absurda.\n-Fotos sem igual em qualquer luz\n-Absurdamente resistente à água e poeira",
+      "fotos": "https://images.samsung.com/is/image/samsung/p6pim/br/2202/gallery/br-galaxy-a53-5g-a536-sm-a536elbgzto-531544867?$650_519_PNG$",
+      "usuario_id": 3,
+      "vendido": "false",
+      "estoque": "15",
+      "id": "Galaxy A53"
+    },
+    {
+      "nome": "Iphone X",
+      "preco": "3900",
+      "descricao": "O melhor da apple pelo melhor preço do mercado!",
+      "fotos": "data:image/jpeg;base64,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",
+      "usuario_id": 3,
+      "vendido": "false",
+      "estoque": "5",
+      "id": "Iphone X"
+    },
+    {
+      "nome": "Moto G660s",
+      "preco": "2000",
+      "descricao": "Motorola, melhor desempenho",
+      "fotos": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTZWSJPHr_dVNoaQ8dw26CmmHKWssnrL-rgHoj_FCpcETntfrR3uVUOHWZmL3BzSiT98XcmQZMIzf6zq6g76c_xCcHe-Ji8gn9eZKMkREtJiBKFgndHCosU_A&usqp=CAE",
+      "usuario_id": 3,
+      "vendido": "false",
+      "estoque": "7",
+      "id": "Moto G660s"
+    },
+    {
+      "nome": "Smartphone LG Velvet 128GB",
+      "preco": "2790",
+      "descricao": "Tenha um smartphone com desempenho extremamente rápido em suas mãos!",
+      "fotos": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQu4SUTG0I2anPtNS6pg7jQHjuO-lWAyp0tLv22y9cznVbFOmGrkizL66Z4vXdAIWFysUtMvfNOh_E5w45tFVynilO6uXZJnvcxGmmT3AKkXEHci2EFglwmxg&usqp=CAE",
+      "usuario_id": 3,
+      "vendido": "false",
+      "estoque": "4",
+      "id": "Smartphone LG Velvet 128GB"
+    },
+    {
+      "nome": "Poco x4 pro 5g",
+      "preco": "1859",
+      "descricao": "smartphone telefone 6gb 128gb 8gb 256gb 108mp triplo câmera 120hz amoled 67w turbo de carregamento",
+      "fotos": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQQgbJUnQms9c65JauZN0pCOb50C2EhI1snJ5xnRhK2cGtrlNRbb0dhQOiVqiyt3M2MfYsPe2RSTbxr_Ixh0worNpHUNYBp6wGGkkrq_mokJpcOzBRRGMjE&usqp=CAE",
+      "usuario_id": 3,
+      "vendido": "false",
+      "estoque": "12",
+      "id": "Poco x4 pro 5g"
+    },
+    {
+      "nome": "Galaxy S22 Ultra",
+      "preco": "7900",
+      "descricao": "O melhor top de linha do mercado pelo melhor preço disponível!",
+      "fotos": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQgZtRds2VMsgQFCu9cC6sfqAnYkA_5nyHXADHHpa8NGafJNsW-m8AvkmgYQcqgg-h30D4PuVG4V5zBMkQnrbmWq7kFBWNO&usqp=CAE",
+      "usuario_id": 3,
+      "vendido": "false",
+      "estoque": "5",
+      "id": "Galaxy S22 Ultra"
+    },
+    {
+      "nome": "Galaxy s10",
+      "preco": "2000",
+      "descricao": "Ótimo custo benefício.",
+      "fotos": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSK0I6GOR1Rj09RgvqAKxs1eakhZYUltKYBoNL9fEgEz6HkAcTzhTZxxS2N9ID4EC_uHQq63_KMuXkLJGUpgFB1K38BRcjp0HAGCIutRjk&usqp=CAE",
+      "usuario_id": 3,
+      "vendido": "false",
+      "estoque": "7",
+      "id": "Galaxy s10"
+    },
+    {
+      "nome": "Iphone 8",
+      "preco": "1560",
+      "descricao": "Ótimo celular",
+      "fotos": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSLn2M7SZTAQBsBvCJPkqsYtzNlGRtF6cGJqZRF4v2mYriH0zJhGzAA-1iDVfkO2clCoNQozSkeguN_77OUHDKWULnw_dtUpg&usqp=CAE",
+      "usuario_id": 3,
+      "vendido": "false",
+      "estoque": "6",
+      "id": "Iphone 8"
+    },
+    {
+      "nome": "Huawei p40 5g",
+      "preco": "3000",
+      "descricao": "original, tela oled, 6.1 polegadas, 422ppi, 8gb + 128gb rom, smartphone 50mp",
+      "fotos": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTVpdWmcpfpUxiM7QYWOq78tCztixo3RD2EvBo9_SKN9tXvspbq0OejOZwwQKqNWFVjxk-mt42h4s5bOf2wqerrOS1u9DMNVATiLkuUzAJZt6APwVLBpeBsWw&usqp=CAE",
+      "usuario_id": 3,
+      "vendido": "false",
+      "estoque": "13",
+      "id": "Huawei p40 5g"
+    },
+    {
+      "nome": "Iphone 13",
+      "preco": "3999",
+      "descricao": "O melhor que a apple tem a oferecer com o melhor preço do mercado",
+      "fotos": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ffiles.tecnoblog.net%2Fwp-content%2Fuploads%2F2021%2F09%2Fiphone-13-pro-max-produto.png&imgrefurl=https%3A%2F%2Ftecnoblog.net%2Fsobre%2Fapple%2Fiphone-13-pro-max%2F&tbnid=Nus0Gi54h_iqcM&vet=12ahUKEwj3-8fRteD4AhWkN7kGHc8cBb4QMygJegUIARC6Ag..i&docid=BGfci869nJqLyM&w=1100&h=1100&q=iphone%2013&hl=pt-BR&ved=2ahUKEwj3-8fRteD4AhWkN7kGHc8cBb4QMygJegUIARC6Ag",
+      "usuario_id": 2,
+      "vendido": "false",
+      "estoque": "16",
+      "id": "Iphone 13"
+    },
+    {
+      "nome": "Notebook Asus",
+      "preco": "2999",
+      "descricao": "Leve e compacto, ele apresenta um novo visual elegante que se adapta perfeitamente ao estilo de vida dinâmico.",
+      "fotos": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRYWFRUSFBIUGBgSEhgcEhIYFRgRGBgZGRgYGBgcITwlHB4rHxgYJjgmKy80NTU1GiQ7QDszPy41NTEBDAwMEA8QHhISHzErJCQxND4xNDU1NDQ0NDE1NDQ0MTY0NDY2NDQxNDExNDQ/NDExNjQxNDQ1NDQxMTQ0MTQ0Pf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABAUDBgIHCAH/xABIEAACAQIDAgkFDAkDBQAAAAABAgADEQQSIQYxBRMiQVFhcYGRBzJCobEWNENSVHSSk6KzwdEUM2JygrLS4fAVI6NEY3ODwv/EABoBAQEBAQEBAQAAAAAAAAAAAAABAgMEBQb/xAApEQEBAAICAQQABQUBAAAAAAAAAQIRAxIEITFBUQUTkaGxIlJxwfAU/9oADAMBAAIRAxEAPwDuaIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiIHyJX8L8KLh0DuGbMwRQLXJIJ5z0AypXbCmfg6n2fzlmNvslsjZomurtUh+DqeqZV2kQ+g/isvTL6TtF7EpRtAvxG8RPv+vr8RvER0y+l7RcxKM7RL8RvpLODbTIPg3+kn5x0y+jtF/E1ttraY+Df6SfnMDbbUh8FU8U/OOmX0do2uJpzbfUR8DW+x+cwv5RqA+Br/wDH/VJ1p2jd4miN5TcOPgMR/wAf9UxN5U8OPgMT/wAP9cdabjsCJ10/lYww/wCnxXdxP9c33BYpatNKi3yVEWolxY5WAYXHNoZLLDaTERCkREBERARE+QPsSNVxtJfPqU1tvzOo9plfV2nwK6NjMICN4/SKRPgDeBcxNbq7b8HrvxVM/urUf+VTIdXyjYAbnqP+7Rqf/QEDcImiVfKdhR5tLEt/DTUet5Dfyor6OFf+Ksq+xTGhfbeH/Zp/+UfyPNPotIvD23LYlFQ0qdMK+cHjSx80rbcPjSi90BHp0h2a/jO+EutarGXu3Om0lI01/gThDjUJJBIa1xzj/Ly3R50jnYnq8F5GFSDUlGR3kWq0+u8j1HhGKq0g1Wmeq8iVWkqotZpCqmSqrSDVMzRGqmRKhkmqZEqGZaiNUno7Zf3lhfm9H7tZ5wqGej9l/eWF+b0fu1nPJvFbRETDTjOlOEfKNwk1WolGnTUI5UKKDOwAO5mzEX0Othu5p3XOm/0fiuFMbRHp3rKObVg/sqjwm+LGZZTG/Lh5HLlxcVzxm7J7IB2q4cfc1RezD0F/mWcP0rht/OxFdf8A2UU/lm1BLaTmTYT6M8LD5tfms/x/m3qYz92lvwdwm55eLq9hxmIt4A2mCps3Xb9ZXD9N2qP/ADGbpU9ZkSrO2Hg8Xzv9WZ+M+Tl9Rp42aC+mO6mB+M+PwUo9Jj9H8psVeVtXUz3cfg+P/b+7vx+fz5e+SobCqu6/TI9TTdLGuJX1FnaeLwT2xn6PZx8+eXvajO56T4zA1zzk98zVBI9U2HWdB2zc4sMfbGfo9OOWV+WPLc9Q9skpTn2hRsJIyWF5bjNOs9avtkq1i6X6G/zxm1JUmj8AcioCd73v2802xak/P+Vj05rP+9XerEVI42QRVnw1Zw2iW9SYHqTC1SYGq9cbHOo8iVHipVkV3kHyo8iVXnOo8i1GmarFVaRqjTJUaR6jSKwVGnpLZX3lhPm9H7tZ5rcz0psp7ywnzej92s55N4reIiYafJ1ftdT4rhjC1Ny104tutirr7RTnaE648r9PImFxA30KwJ7AVf2I3jNY3VlZzx7Y2X5WNbCDoldXokdYE2Rqd9RuIuOwyFVo3PUPbPqYc2n5jyfw6ZXc9K1xxIrzYcRhx0StxOFABNt09mHLjXi/8GePs1/FHm6fZIjrLI4Um5PPOP8AptRvNR2/dR29gnrx5cZ62u+HFnNSRQ1lkGqs2qrs3icrOaLqiAuxYBbKouScxB3CQuGNn6uHKisoUuCygMraKQDe2nOJueRxW9ZlLf8AL6HFw8mt2WNYdJHWldr8w0E3XZ/ZY4xa2WoEakobLxZYvmDWANxbVbc++bHgvJzh0RWxOJZHKgsA1JFB3kAsDe3TOHJ53Fx5XG31nxqvo8XDdbdZokyCnc9Q1752TX4G4FRGAxCO+VgpGIZyGsbHLS0NjbS00Gkmg5r7+2dODyMeaWyWa+5/D044acUGUq3QQZeLVlPVWwPSd0k061wOyfL/ABHHXJMvufw1ljqRZirBqyCKsGrPnuazwmKRHDOucLchb6F7cnN+zexI55cUtp6ahc1J3YKublZQzqqhjpzEi9rc9pqRqzG1SSyX3WWxsWG2gWkgRKZIBJJZ2zG5v6JAE1zEVszM3xiW39JJmN3mB3jUi72+u8jO8+u8wM8g4u0ju05s8wO0lVwcz0vsp7xwnzaj92s8ysZ6a2U95YT5vR+7WYyai3iImGian5SsFxuAqi1ypRx9LKx+izTbJB4Zw3GYetT+PTdB2lSB67QNa2XxRq4HDPvZqSBj+2gyP9pTLFqVhNc8l1TNhGTnoV6tMD9liKo+8M250npwy9HHLilVVWnMGCwoeqMysypymUKWu25QR0a37pYV1sPZJPBqcXSeod5u3aFGg7zfxnXPksx9PlmcE3tGq10dalOnhnOjI5XiFsTcHXNe+h8Jk/S8VYCnhKSrYZScQtgObkqu7vmPZ/R2Um+ZbnrYHU/aMJwPXGi12RQTlAJNlvoLHdpacrJLZden3t0mKLjBwk6suXChGBUqFOYqRYi7OV9UptsME7YfD1Xao7g5GDCmMhdLsLKo9JANbza6GAakwepiqjKtyQzKqHQ77nv7pBfhzC1Q9Ost6QbkHI5DqLHMMouDmza84seeb488pnMsJLJ9S/7XruerTNjMDTqYgpVDMjI1gHqIC6kEXyEX0z6GWSVODabvTfAFq6OyMVpq+bKxAbVr6ix1HPLenw5gKF2oUSz2sCtIqezM9jaQqO2tRVsaCu5ZmJ40qoVmYhRySWyggX0vbmnoz/N5c7nMbq69N6axx1E7gyhhK7ZP9MekhBOd8LSQacwIOa55iJ1/wzweKOIq01vlRyq85yHlKCec2Im1YnbPFN5i0UB/YdmHYS1vszUsa7cpmYs7sSWO8uxuSZ6vD4+Tjyty9JZ7b26SVW2zN1DT85gvlJHQTbsvLGjQsJXcIDK3b+VvwmfP/qxmX1Tkx/pchUn3jJCFSOMnynnSzUnFqkimpOJeBnZ5iZ5iZ5jZ4HN3mJnnBnmNnk2r67TExnxmiRXEz03sr7ywnzah92s8yGem9lfeWE+bUPu1mMli3iImWiIiB1rsGOKx3COH3DMtVB1Kz0z6gh75vTrNHrjiOHlO5cVSZO/IrD7VBu8zfHE6Y1vGbV9RLnsn3E1SVC2AUWvrcm2vtAkopI1VOadJZ8t9YrhmU5lOVunTQHtEj4mpUIN6lQ/xso8FNpZvTkSpTubdG/tnaWb2vSKN8KL5iozHnsL+MwvRl29KRnoz0Y8h1Ur0ZhajLd6MxNRnfHkOipajK56ed7+ivJHbzn/OiXmNXKunnNyV/OYaGFyjdOn5jUxVz05ScPU7KG6P7fmZtFWlITogemXUNTSpTNRSLqULhWBHYZx8i9uOmeO8a0YVJ9Dz0R7lMD8lw/1ax7lMD8lw/wBWs+P2eTq87GpOLPPRfuTwPyXD/VrHuTwPyXD/AFax2Orzkak4F56P9yeB+S4f6tY9yeB+S4f6tY7mnm1nnAtPSvuSwPyXD/VrHuSwPyTD/VrHY0803gGelvclgPkmH+rWPclgPkmH+rWTsaeaCZ6d2YBGDwoIsRh6II6DxazB7kMB8kw/1ay7UW05hJbtZNPs+xEikREDrjylf7OJ4PxI0yVkVz/2xUAI+jUeb8VmneVzBl8AzDfTYMO8FR9orNl4GxgrYehVG6rSSp9JQfxmo1ikVNNZiCeMykXPUPbPlZlUXYhV5ySAPEzUrpLpFrCw69w7ZgFGwlfjdrMBTJz4mjydMqtna/Yl5R43yl4RfMSvV6wiov2zf1Tcy033jZ3pzA9OaBjPKZVa/F4eknQXd3NuwZZX09r8RVLcbiTRTSwpoik3vfXKTpb1ianLIl5MXY1WnbU80rMRwjh08+tSVuccYpb6I1nXHCWPR0tnxFWpnvndnKlLtZcpa17ZdwG4ytD9Uv5+XxGbzfUb7itosPnuC7hdFyoe88q0iVtqR6FLvZ/wA/GafnPUNL9GnfOPG7rnf3W7Zm8+f2xeXKtir8O1W50TsX87yvrY4te7lj0ZufslYz301vvPOMvcd854ZGY6A791r2HZ53qnPLPK+9rNyyr0BwRtHQqIl6qLUKpmVjlIYqLgZtDr0S8U31GoO6dEJUYA8o7rDQGwHU5VvUZIwfDdWkQEaohteyVG17UYKPUZjSO8YnVeA8odZbB8lS5tZhlfxX25ZsuC28w7aVFqUjz6Z1HeOV9mNJtt8SBguFaFb9XVpuegOM3ep1HhJ8ikREBERAREQEREBERApdrcLxmDxC2ueLZwOlk5a+tROmeD/KLisNh0w1NaFqANMVGV2YqGNtMwAsNO6d+VEDAqdzAg9hFjPOO0ezNXC1WWujKCzcW++m630IYbiQLkHUdEsNvuM26x9S4OJdVPooEpjxUZvXKOtiHqnM7VKrczOzufFiZkagV1yKR0gXH9u+DU6PA7vH+0uk7bcFpt0AdpmQU+lrX/AM3mfGJ7fjag9u7du3btTOYIzDXQ773UeNz1eEei+pxYtfU82/qvv3Wsd+6ZKbAEbrG1j033brmYVF8w3E62sDrz2Nx/ecc4K2vqOYsxvfqt+MbNJLvzGwYa6jQ79NT0WmPOSpI3XGYWJU+A0HVecSxBBF1bn0sDfosYCak8kX5jZhbwg9H0OLgm2Vt4JuPUb+qfSuW6nTcV07efS0yUMO7CyB3XfYA5QfZJCYIjeaadrZj4Je3eI1U3ETmU2ItYXtdT3623S3weKqAgZlvpqaaOwFtLOBe3XeYadCmOd27FVB46+yXfBtFLebbo1JPju9UXGX3OweNdbOSSN2ZwVPZcXHZacP0Hdma4GlrFh9sm3dLFqY5j4/mJjYGWYyeybRP0RACLZgdSCSVP8O63VaLKosFUdgt6hMzGYGlRgqm8m4LabF0fMr1Mo9FjnXss97d1pCtmbKvKY7lALMexRqZa4HY/GVrEUXVT6TkUx4Ny/sxdL6rnA+U2qthWoI452RirfRNwfETZ+DNvcFWIUu9Jz6LoRr+8t18TKPAeTTnr1lHSqIT9p9PszZsDsbg6Vv8AaFQjnclx9E8n1TF0s22KIiRSIiAiIgIiICYq9FXUq6qynQqygqR0EHQzLEDReG/Jpha12otUwr7xkN0v+4dw6gQOqaHwzsBjKJYmktemBcPRJNS+nnUyLnn3A9s72iXY8v1MEwJCm59JTyXHapkYixIYEHsykHvE9K8KcBYbED/eoo5tYNazgdTjlDxmlcMeTINc0Ktx8SqL9wqKLjw743E06fzXFjYjrALD+LfOec5QhZiiklVJJAJ3kDrmwcM7I4jD3L03RR6Vs9L6a+b2HWUT4dl3jTpGq+ImppLtwEyUapQ5ha/WoPt3HrGsxz6JpEw4sv55bxLDwO71zmiX3WPZ+W8SEbL5xC33XIHt3y84M2bxdaxpYauw0sxpmmnaHqZQR2Xk2MNClfmMucJYc48b+yXeA8m+Ke3HVaVIdF3rN4clQe8zZcD5OsKn6xq9c77M+RL9S0wNOokyXKLpoj4pAbFxmO4ZlBPYN5kvC8GYqr+qwtUj4zqKa26b1CLjsnauA4JoUBajRpU+taagntIFzJ8z2XTrbB7B4lyDWrUaYvcqqtUYjoJawHrl3g9gcIpu/G12vfl1GCjqyJZSOo3m2xG6qLgsBSorlpU6dNehUVB6hJcRIEREBERAREQEREBERAREQEREBERA+TX+FNkMJXuTSFNz6dPkNfpIHJbvBmwxA6xxnkqDeZXVeVfMaLEhejKrgE9enZJ/B/kswia1nxGIPOC4pp3LTAbxYzfol3RV8GbP4XD/AKjD0aR+MtNc57X84+MtYiQIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiB/9k=",
+      "usuario_id": 1,
+      "vendido": "false",
+      "estoque": "3",
+      "id": "Notebook Asus"
+    }
+  ]
+}
