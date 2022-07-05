@@ -2,7 +2,7 @@
 Este site foi criado para treinar tudo o que foi aprendido em um curso de Vue 2.
 A ideia é de um e-comerce de eletrônicos.
 
-Como API foi utilizada uma biblioteca chamada Json server que já possui vários metodos de uma API REST real.
+Como no momento sou apenas Front-end a API que foi utilizada é uma biblioteca chamada Json server que já possui vários metodos de uma API REST real.
 
 Neste site é possível:
 + Buscar produtos pelo nome
